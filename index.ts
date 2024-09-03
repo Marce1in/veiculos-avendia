@@ -12,7 +12,7 @@ while(true){
     console.log("2 - Frear");
     console.log("3 - Subir marcha");
     console.log("4 - Descer marcha");
-    console.log("5 - Imprimir dados do veículo");
+    console.log("5 - Listar dados do veículo");
     console.log("0 - Sair");
 
     const opcao = +teclado('Escolha uma opção: ');
