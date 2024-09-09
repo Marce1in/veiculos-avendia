@@ -26,6 +26,8 @@ while(true){
         case 2:
             frear(carro)
             break
+        case 3:
+            subirMarcha(carro)
 
         default:
             break;
@@ -44,6 +46,17 @@ function frear(veiculo: Veiculo){
     veiculo.velocidade = 0
 
     console.log(`A besta freiou! Velocidade: ${veiculo.velocidade}`)
+}
+
+function subirMarcha(veiculo: Veiculo){
+    const marcha = +teclado('Selecione uma Marcha: ')
+
+    if (marcha > veiculo.numeroMarchas) {
+        console.log(`${marcha} não é uma marcha disponivel neste veiculo`)
+        return
+    } else {
+        veiculo.marchaAtual = marcha
+    }
 }
 
 function criaVeiculo(): Veiculo{
