@@ -37,6 +37,12 @@ function acelerar(veiculo: Veiculo): void{
     console.log(veiculo.velocidade);
 }}
 
+function frear(veiculo: Veiculo){
+    veiculo.velocidade = 0
+
+    console.log(`A besta freiou! Velocidade: ${veiculo.velocidade}`)
+}
+
 function criaVeiculo(): Veiculo{
     const veiculo: Veiculo = new Veiculo();
     veiculo.marca = teclado('Marca: ');
