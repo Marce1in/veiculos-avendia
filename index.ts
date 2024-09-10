@@ -12,13 +12,11 @@ while(true){
     console.log("2 - Frear");
     console.log("3 - mudar de marcha");
     console.log("4 - Diminuir marcha");
-<<<<<<< HEAD
     console.log("5 - Imprimir dados do veículo");
     console.log("0 - PULA DO CARRo");
-=======
     console.log("5 - Listar dados do veículo");
-    console.log("0 - Sair");
->>>>>>> cd6a6b5c47454f0bab6d13c1dd7bd61d846769a6
+    console.log("0 - mete pé");
+
 
     const opcao = +teclado('Escolha uma opção: ');
     if(opcao === 0){
