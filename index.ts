@@ -13,7 +13,7 @@ while(true){
     console.log("3 - mudar de marcha");
     console.log("4 - Diminuir marcha");
     console.log("5 - Imprimir dados do veículo");
-    console.log("0 - PULA DO CARRo");
+    console.log("0 - PULA DO CArro");
     console.log("5 - Listar dados do veículo");
     console.log("0 - mete pé");
 
