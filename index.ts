@@ -10,10 +10,10 @@ while(true){
     console.log("########### MENU ###########");
     console.log("1 - Acelerar");
     console.log("2 - Frear");
-    console.log("3 - Subir marcha");
+    console.log("3 - mudar de marcha");
     console.log("4 - Descer marcha");
     console.log("5 - Imprimir dados do veículo");
-    console.log("0 - Sair");
+    console.log("0 - PULA DO CARRo");
 
     const opcao = +teclado('Escolha uma opção: ');
     if(opcao === 0){
