@@ -3,7 +3,7 @@ export class Veiculo{
     modelo: string = 'Padrão';
     cor: string = 'Padrão';
     potencia: number = 0;
-    numeroMarchas: number = 5;
+    numeroMarchas: number = 6;
     marchaAtual: number = 0;
     velocidade: number = 0;
     quilometragem: number = 0;
