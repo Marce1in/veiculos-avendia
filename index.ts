@@ -7,7 +7,7 @@ console.log('Criação de veículo');
 const carro: Veiculo = criaVeiculo();
 
 while(true){
-    console.log("########### MENU ###########");
+    console.log("########## MENU ##########");
     console.log("1 - Arrancar");
     console.log("2 - Frear");
     console.log("3 - passar mais uma marcha ");
