@@ -10,7 +10,7 @@ while(true){
     console.log("########### MENU ###########");
     console.log("1 - Acelerar");
     console.log("2 - Frear");
-    console.log("3 - mudar de marcha");
+    console.log("3 - passar mais uma marcha ");
     console.log("4 - Diminuir marcha");
     console.log("5 - Imprimir dados do veículo");
     console.log("0 - PULA DO CArro");
